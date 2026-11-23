@@ -43,3 +43,9 @@ rex.bind("ctrl+h", "pane.focus.left")
 rex.bind("ctrl+j", "pane.focus.down")
 rex.bind("ctrl+k", "pane.focus.up")
 rex.bind("ctrl+l", "pane.focus.right")
+
+-- Enter resize mode
+rex.bind("ctrl+a>r", "client.mode.enter", { name = "resize" })
+
+-- Exit the active key mode
+rex.bind("ctrl+q", "client.mode.exit")
