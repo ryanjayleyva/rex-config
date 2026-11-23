@@ -24,3 +24,9 @@ rex.bind("ctrl+a>l", "session.recent")
 rex.bind("ctrl+a>shift+n", "client.window.new")
 rex.bind("ctrl+a>shift+x", "client.window.close")
 rex.bind("ctrl+a>f", "client.window.fullscreen.toggle")
+
+-- Manage tabs
+rex.bind("ctrl+a>t", "client.tab.new")
+rex.bind("ctrl+a>n", "client.tab.next")
+rex.bind("ctrl+a>p", "client.tab.previous")
+rex.bind("ctrl+a>shift+m", "client.tab.move_to_new_window")
