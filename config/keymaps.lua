@@ -30,3 +30,6 @@ rex.bind("ctrl+a>t", "client.tab.new")
 rex.bind("ctrl+a>n", "client.tab.next")
 rex.bind("ctrl+a>p", "client.tab.previous")
 rex.bind("ctrl+a>shift+m", "client.tab.move_to_new_window")
+
+-- Send a literal ctrl+a to the pane
+rex.bind("ctrl+a>ctrl+a", "pane.send_key", { key = "ctrl+a" })
