@@ -43,3 +43,6 @@ Reload the configuration with the CLI
 ```bash
 rex config reload
 ```
+
+Thanks to [Rex](https://www.superlogical.com/rex/docs/customize/keyboard-shortcuts#removing-a-shortcut)
+for the beta testing access!
