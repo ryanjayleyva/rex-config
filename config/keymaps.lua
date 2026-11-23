@@ -49,3 +49,9 @@ rex.bind("ctrl+a>r", "client.mode.enter", { name = "resize" })
 
 -- Exit the active key mode
 rex.bind("ctrl+q", "client.mode.exit")
+
+-- Resize panes with h/j/k/l in resize mode
+rex.bind("resize/h", "pane.resize", { direction = "left" })
+rex.bind("resize/l", "pane.resize", { direction = "right" })
+rex.bind("resize/k", "pane.resize", { direction = "up" })
+rex.bind("resize/j", "pane.resize", { direction = "down" })
