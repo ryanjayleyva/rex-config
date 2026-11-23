@@ -12,6 +12,14 @@ init.lua            # entry point, loads the modules under config/
 config/keymaps.lua  # key bindings
 ```
 
+## iOS Settings
+
+### Themes
+
+[kasumi.nvim](https://github.com/ryanjayleyva/kasumi.nvim/blob/main/extras/ghostty/kasumi)
+
+Import the kasumi theme into Rex.
+
 ## Keybindings
 
 The prefix is `ctrl+a`. Chords are written `ctrl+a>key`.
