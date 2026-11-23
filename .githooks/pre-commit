@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Block the commit if this repo's Rex config is invalid.
+# Validates the repo's own init.lua, not the live ~/.config/rex
+# (which is a symlink into the dotfiles-macos repo).
+set -euo pipefail
+
+root="$(git rev-parse --show-toplevel)"
+config="$root/init.lua"
+
+if ! command -v rex >/dev/null 2>&1; then
+    echo "pre-commit: 'rex' not found in PATH, cannot validate config." >&2
+    exit 1
+fi
+
+echo "pre-commit: running rex config check on $config..."
+if ! rex config check "$config"; then
+    echo "pre-commit: rex config check failed, commit aborted." >&2
+    exit 1
+fi
