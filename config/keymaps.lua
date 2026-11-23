@@ -33,3 +33,7 @@ rex.bind("ctrl+a>shift+m", "client.tab.move_to_new_window")
 
 -- Send a literal ctrl+a to the pane
 rex.bind("ctrl+a>ctrl+a", "pane.send_key", { key = "ctrl+a" })
+
+-- Split panes (\ is shift+\, i.e. |)
+rex.bind("ctrl+a>shift+\\", "pane.split", { direction = "right" })
+rex.bind("ctrl+a>-", "pane.split", { direction = "down" })
