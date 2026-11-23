@@ -1,4 +1,4 @@
--- Strip client defaults
+-- Unbind client defaults
 for _, k in ipairs({
 	"cmd+t",
 	"cmd+w",
