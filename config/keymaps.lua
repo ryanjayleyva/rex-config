@@ -37,3 +37,9 @@ rex.bind("ctrl+a>ctrl+a", "pane.send_key", { key = "ctrl+a" })
 -- Split panes (\ is shift+\, i.e. |)
 rex.bind("ctrl+a>shift+\\", "pane.split", { direction = "right" })
 rex.bind("ctrl+a>-", "pane.split", { direction = "down" })
+
+-- Focus panes with ctrl+h/j/k/l
+rex.bind("ctrl+h", "pane.focus.left")
+rex.bind("ctrl+j", "pane.focus.down")
+rex.bind("ctrl+k", "pane.focus.up")
+rex.bind("ctrl+l", "pane.focus.right")
