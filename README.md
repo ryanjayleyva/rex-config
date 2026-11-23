@@ -3,6 +3,8 @@
 Personal config for testing, tweaking, and exploring
 [Rex beta](https://www.superlogical.com/rex/docs/installation).
 
+![Rex preview](assets/rex-preview.webp)
+
 ## Layout
 
 ```text
