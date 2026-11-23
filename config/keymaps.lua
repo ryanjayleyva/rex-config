@@ -19,3 +19,8 @@ rex.bind("ctrl+a>shift+r", "session.rename")
 rex.bind("ctrl+a>shift+q", "session.close")
 rex.bind("ctrl+a>b", "session.back")
 rex.bind("ctrl+a>l", "session.recent")
+
+-- Manage windows
+rex.bind("ctrl+a>shift+n", "client.window.new")
+rex.bind("ctrl+a>shift+x", "client.window.close")
+rex.bind("ctrl+a>f", "client.window.fullscreen.toggle")
