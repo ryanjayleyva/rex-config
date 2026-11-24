@@ -52,5 +52,5 @@ Reload the configuration with the CLI
 rex config reload
 ```
 
-Thanks to [Rex](https://www.superlogical.com/rex/docs/customize/keyboard-shortcuts#removing-a-shortcut)
-for the beta testing access!
+Thank you to Superlogical for the
+[Rex](https://www.superlogical.com/rex/docs/installation) beta access.
