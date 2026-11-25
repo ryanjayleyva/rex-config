@@ -50,17 +50,20 @@ The prefix is `ctrl+a`. Chords are written `ctrl+a>key`.
 
 | Area     | Binding                                    | Action                                    |
 | -------- | ------------------------------------------ | ----------------------------------------- |
-| Sessions | `s` `]` `[` `k` `b` `l`                    | new, next, previous, switch, back, recent |
+| Sessions | `s` `]` `[`                                | new, next, previous                       |
 | Sessions | `shift+r` `shift+q`                        | rename, close                             |
+| Sessions | `cmd+k`                                    | switch (client default)                   |
 | Windows  | `shift+n` `shift+x` `f`                    | new, close, toggle fullscreen             |
 | Tabs     | `t` `n` `p` `shift+m`                      | new, next, previous, move to new window   |
 | Panes    | `shift+\` (`\|`) `-`                       | split right, split down                   |
 | Panes    | `ctrl+a` `ctrl+a`                          | send a literal `ctrl+a` to the pane       |
-| Panes    | `ctrl+a>h` `ctrl+a>j` `ctrl+a>k` `ctrl+a>l`| focus left, down, up, right (no prefix)   |
-| Resize   | `ctrl+a>r`, then `h` `j` `k` `l`, `ctrl+q` | enter resize mode, resize, exit           |
+| Panes    | `ctrl+a>h` `ctrl+a>j` `ctrl+a>k` `ctrl+a>l`| focus left, down, up, right               |
+| Resize   | `ctrl+a>r`, then `h` `j` `k` `l`, `ctrl+q` | enter resize mode, resize, exit mode      |
 
-The default client bindings `cmd+t`, `cmd+w`, `cmd+d`, `shift+cmd+d`, `cmd+k`,
-and `cmd+n` are unbound.
+`ctrl+q` leaves only the current key mode, while `esc` leaves every mode.
+
+The default client bindings `cmd+t`, `cmd+w`, `cmd+d`, `shift+cmd+d`, and
+`cmd+n` are unbound. `cmd+k` is kept as the session switcher.
 
 ## CLI Commands
 
