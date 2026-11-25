@@ -4,7 +4,7 @@ for _, k in ipairs({
 	"cmd+w",
 	"cmd+d",
 	"shift+cmd+d",
-	"cmd+k",
+	-- "cmd+k",  -- keep client default (session switcher)
 	"cmd+n",
 }) do
 	rex.unbind(k)
@@ -14,11 +14,8 @@ end
 rex.bind("ctrl+a>s", "session.new")
 rex.bind("ctrl+a>]", "session.next")
 rex.bind("ctrl+a>[", "session.previous")
-rex.bind("ctrl+a>k", "session.switch")
 rex.bind("ctrl+a>shift+r", "session.rename")
 rex.bind("ctrl+a>shift+q", "session.close")
-rex.bind("ctrl+a>b", "session.back")
-rex.bind("ctrl+a>l", "session.recent")
 
 -- Manage windows
 rex.bind("ctrl+a>shift+n", "client.window.new")
@@ -48,7 +45,7 @@ rex.bind("ctrl+a>l", "pane.focus.right")
 rex.bind("ctrl+a>r", "client.mode.enter", { name = "resize" })
 
 -- Exit the active key mode
-rex.bind("ctrl+q", "client.mode.exit")
+rex.bind("ctrl+q", "client.mode.exit") -- Leaves the current mode only, and `esc` to leaves every mode
 
 -- Resize panes with h/j/k/l in resize mode
 rex.bind("resize/h", "pane.resize", { direction = "left" })
