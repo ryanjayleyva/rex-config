@@ -3,6 +3,8 @@
 Personal config for testing, tweaking, and exploring
 [Rex beta](https://www.superlogical.com/rex/docs/installation).
 
+Read more: [Will Rex replace my WezTerm and Herdr terminal workflow?](https://rjleyva.com/posts/rex/will-rex-replace-my-wezterm-and-herdr-terminal-workflow/)
+
 ![Rex preview](assets/rex-preview.webp)
 
 ## Layout
