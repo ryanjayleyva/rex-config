@@ -32,7 +32,7 @@ The prefix is `ctrl+a`. Chords are written `ctrl+a>key`.
 | Tabs     | `t` `n` `p` `shift+m`                      | new, next, previous, move to new window   |
 | Panes    | `shift+\` (`\|`) `-`                       | split right, split down                   |
 | Panes    | `ctrl+a` `ctrl+a`                          | send a literal `ctrl+a` to the pane       |
-| Panes    | `ctrl+h` `ctrl+j` `ctrl+k` `ctrl+l`        | focus left, down, up, right (no prefix)   |
+| Panes    | `ctrl+a>h` `ctrl+a>j` `ctrl+a>k` `ctrl+a>l`| focus left, down, up, right (no prefix)   |
 | Resize   | `ctrl+a>r`, then `h` `j` `k` `l`, `ctrl+q` | enter resize mode, resize, exit           |
 
 The default client bindings `cmd+t`, `cmd+w`, `cmd+d`, `shift+cmd+d`, `cmd+k`,
