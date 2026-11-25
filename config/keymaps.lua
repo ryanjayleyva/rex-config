@@ -39,10 +39,10 @@ rex.bind("ctrl+a>shift+\\", "pane.split", { direction = "right" })
 rex.bind("ctrl+a>-", "pane.split", { direction = "down" })
 
 -- Focus panes with ctrl+h/j/k/l
-rex.bind("ctrl+h", "pane.focus.left")
-rex.bind("ctrl+j", "pane.focus.down")
-rex.bind("ctrl+k", "pane.focus.up")
-rex.bind("ctrl+l", "pane.focus.right")
+rex.bind("ctrl+a>h", "pane.focus.left")
+rex.bind("ctrl+a>j", "pane.focus.down")
+rex.bind("ctrl+a>k", "pane.focus.up")
+rex.bind("ctrl+a>l", "pane.focus.right")
 
 -- Enter resize mode
 rex.bind("ctrl+a>r", "client.mode.enter", { name = "resize" })
