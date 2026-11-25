@@ -14,6 +14,28 @@ config/keymaps.lua  # key bindings
 
 ## iOS Settings
 
+### Interface
+
+- `Toolbar layout` = `Left`
+- `Toolbar behavior` = `Hidden`
+- **Customize tabs**
+    - `Show tab icons` = `0`
+- `Pane style` = `Compact`
+- `Pane header behavior` = `hidden`
+- **Customize panes**
+    - `Fill with program colors` = `Off`
+    - `Highlight active panes edges` = `Disable`
+    - `Fade inactive panes` = `Content`
+    - `Fade panes for inactive windows` = `Disable`
+    - `Autobalance splits` = `Disable`
+    - `Focus follow mouse` = `Disable`
+    - `Minimize floating windows` = `Bottom Right`
+- `Sidebar text size` = `15pt`
+- `Preserve width when resizing sidebar` = `Disable`
+- `Show back and forward buttons` = `Disable`
+- `Use trackpad gesture` = `Disable`
+- `Animation` = `Off`
+
 ### Themes
 
 [kasumi.nvim](https://github.com/ryanjayleyva/kasumi.nvim/blob/main/extras/ghostty/kasumi)
