@@ -58,3 +58,4 @@ rex.bind("resize/j", "pane.resize", { direction = "down" })
 
 -- Agent launcher
 rex.bind("ctrl+a>y", "launch_pi")
+rex.bind("ctrl+a>shift+y", "launch_claude_code")
